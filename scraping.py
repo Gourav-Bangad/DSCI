@@ -30,10 +30,7 @@ for i in range(2,248):
                     temp = i.text
                     Description.append(temp)
 
-# print(Product_name)
-# print(Price)
-# print(Description) 
 
 df = pd.DataFrame({"Product Name":Product_name,"Prices":Price,"Description":Description})
 
-df.to_csv("C:/Users/MI/Desktop/Dsci/mobile_data.csv")
+df.to_csv("C:/Users/MI/Desktop/Dsci/mobile_data1.csv")
